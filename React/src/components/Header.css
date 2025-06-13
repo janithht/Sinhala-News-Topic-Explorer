@@ -1,0 +1,43 @@
+.app-header {
+  width: 100%;
+  padding: 2.5rem 0 1.5rem 0;
+  background: linear-gradient(90deg, #283593 0%, #1976d2 100%);
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(26,35,126,0.10);
+  position: relative;
+  z-index: 2;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.header-icon {
+  font-size: 2.8rem;
+  margin-bottom: 0.2rem;
+  filter: drop-shadow(0 2px 8px rgba(25, 118, 210, 0.18));
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2.3rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #fff 40%, #bbdefb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header-subtitle {
+  margin: 0.2rem 0 0 0;
+  font-size: 1.09rem;
+  color: #e3f2fd;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  text-shadow: 0 1px 6px rgba(25, 118, 210, 0.09);
+}

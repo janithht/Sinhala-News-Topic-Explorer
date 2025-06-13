@@ -1,0 +1,125 @@
+.app-bg {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #f0f4f9 0%, #e0e7ef 100%);
+  padding: 0;
+  margin: 0;
+}
+
+.app-header {
+  padding: 2rem 0 1rem 0;
+  background: #1a237e;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(26,35,126,0.08);
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-card {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+  width: 100%;
+  max-width: 480px;
+  margin-bottom: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  color: #1a237e;
+  font-size: 1.1rem;
+}
+
+.news-textarea {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1rem;
+  border: 1.5px solid #b0bec5;
+  border-radius: 8px;
+  resize: vertical;
+  margin-bottom: 1.2rem;
+  transition: border-color 0.3s;
+}
+
+.news-textarea:focus {
+  border-color: #3949ab;
+  outline: none;
+}
+
+.analyze-btn {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1.08rem;
+  color: #fff;
+  background: #3949ab;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.analyze-btn:disabled {
+  background: #b0bec5;
+  cursor: not-allowed;
+}
+
+.analyze-btn:not(:disabled):hover {
+  background: #1a237e;
+}
+
+.error-message {
+  color: #d32f2f;
+  margin-top: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.response-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.results {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  padding: 2rem 2rem 1.5rem 2rem;
+}
+
+.results h2 {
+  color: #3949ab;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.topic-card {
+  background: #f5f7fa;
+  padding: 1rem 1.2rem;
+  border-radius: 5px;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 1px 4px rgba(57,73,171,0.04);
+}
+
+.topic-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: #1a237e;
+  font-size: 1.12rem;
+}
+
+.topic-card p {
+  margin: 0;
+  color: #333;
+  font-size: 1rem;
+}
